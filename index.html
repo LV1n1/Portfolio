@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css" />
+    <link rel="stylesheet" href="./src/css/rolagem.css" />
+
+    <title>Portfólio</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    
+  </head>
+  <body>
+    <main class="cartao">
+      <div class="minhas-informacoes">
+        <img src="./src/img/file.jpg" alt="foto de perfil" />
+        <h1 class="nome">Luiz Vinícius Irineu Fonseca</h1>
+        <h2 class="cargo">Desenvolvedor Back-end </h2>
+      </div>
+
+      <div class="conteudo">
+        <ul class="abas">
+          <li class="aba selecionado" id="sobre-mim">
+            <img src="./src/img/sobre.gif" alt="ícone de sobre mim" />
+          </li>
+          <li class="aba" id="minhas-redes">
+            <img src="./src/img/coracao.gif" alt="ícone de redes sociais" />
+          </li>
+        </ul>
+
+        <div class="informacoes-abas">
+          <div class="informacao selecionado" id="informacao-sobre-mim">
+            <h3 class="sub-titulo">Sobre</h3>
+
+            <div class="descricao">
+              <p>
+                Olá! meu nome é Vinícius
+              
+              </p>
+              <br />
+
+              <p>
+                Sou estudante de Engenharia da Computação na UnP e atualmente sou estagiário de TI no Sicoob Credimepi, onde estou adquirindo experiência prática na área. Tenho grande afinidade com a tecnologia e, desde que fiz um curso técnico de informática, me apaixonei pelo desenvolvimento de sistemas. Atualmente, estudo Java e me dedico a aprender mais sobre bancos de dados, APIs e lógica de negócios.
+                Estou sempre em busca de novos desafios e oportunidades para continuar aprimorando minhas habilidades e expandindo meu conhecimento na área de tecnologia.
+              </p>
+            </div>
+          </div>
+
+          <div class="informacao" id="informacao-minhas-redes">
+            <h3 class="sub-titulo">Minhas redes</h3>
+
+            <ul class="redes-sociais">
+              <li>
+                <a
+                  href="./src/img/pro"
+                  target="_blank"
+                  class="curriculo"
+                  >Currículo</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://linkedin.com/in/lvifonseca/"
+                  class="linkedin"
+                  target="_blank"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/LV1n1"
+                  target="_blank"
+                  class="github"
+                  >GitHub</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
